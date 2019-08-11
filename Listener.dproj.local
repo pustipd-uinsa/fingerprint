@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/13 19:43:18.000.356,=C:\Users\Alfian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/13 08:08:46.000.013,=C:\Users\Alfian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/14 08:43:29.000.555,=C:\Users\Alfian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/14 08:45:31.000.847,=C:\Users\Alfian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/14 08:46:24.000.982,D:\project\fingerprint uinsa\UnUtama.pas=C:\Users\Alfian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/14 08:46:24.000.982,D:\project\fingerprint uinsa\UnUtama.dfm=C:\Users\Alfian\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/03/14 08:46:38.000.719,D:\project\fingerprint uinsa\Listener.dproj=C:\Users\Alfian\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/03/14 08:49:37.000.600,D:\project\fingerprint uinsa\Listener.dproj=D:\project\fingerprint uinsa\Listener.dproj</Transaction>
+    <Transaction>2019/03/14 09:01:45.000.336,D:\project\fingerprint uinsa\Connector\Listener.dproj=D:\project\fingerprint uinsa\Listener.dproj</Transaction>
+    <Transaction>2019/05/21 13:51:12.000.041,=D:\project\fingerprint uinsa\Connector\cef.inc</Transaction>
+  </Transactions>
+</BorlandProject>

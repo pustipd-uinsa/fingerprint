@@ -1,0 +1,1 @@
+schtasks /create /tn "start listener on login" /xml schedule.xml

@@ -1,0 +1,16 @@
+program ConnectorAbsen;
+
+uses
+  Vcl.Forms,
+  UnUtama in 'UnUtama.pas' {FrmUtama},
+  UnDaftar in 'UnDaftar.pas' {FrmDaftar};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmUtama, FrmUtama);
+  Application.CreateForm(TFrmDaftar, FrmDaftar);
+  Application.Run;
+end.

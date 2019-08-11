@@ -1,0 +1,14 @@
+program ConnectorAbsen;
+
+uses
+  Vcl.Forms,
+  UnDaftar in 'UnDaftar.pas' {FrmDaftar};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmDaftar, FrmDaftar);
+  Application.Run;
+end.

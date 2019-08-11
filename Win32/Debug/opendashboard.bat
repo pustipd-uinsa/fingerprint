@@ -1,0 +1,1 @@
+start "" "http://finger.uinsby.ac.id/index.php?lokasi=Twin Tower A"

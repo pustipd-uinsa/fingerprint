@@ -1,0 +1,369 @@
+object FrmDaftar: TFrmDaftar
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Aplikasi Pendaftaran Sidik Jari'
+  ClientHeight = 714
+  ClientWidth = 867
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 107
+    Width = 37
+    Height = 25
+    Caption = 'NIP'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 145
+    Width = 214
+    Height = 25
+    Caption = 'NAMA PLUS GELAR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 182
+    Width = 132
+    Height = 25
+    Caption = 'UNIT KERJA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 222
+    Width = 161
+    Height = 25
+    Caption = 'UPLOAD FOTO'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 258
+    Width = 89
+    Height = 25
+    Caption = 'STATUS'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 298
+    Width = 79
+    Height = 25
+    Caption = 'GRADE'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 696
+    Top = 102
+    Width = 138
+    Height = 211
+    Center = True
+    Stretch = True
+  end
+  object Label7: TLabel
+    Left = 132
+    Top = 13
+    Width = 506
+    Height = 25
+    Caption = 'APLIKASI PENDAFTARAN SIDIK JARI PEGAWAI'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 65
+    Top = 38
+    Width = 615
+    Height = 25
+    Caption = 'UNIVERSITAS ISLAM NEGERI SUNAN AMPEL SURABAYA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 517
+    Top = 334
+    Width = 215
+    Height = 13
+    Caption = 'Setelah Daftar Scan Jari Anda Sebanyak 4  X'
+  end
+  object Label10: TLabel
+    Left = 517
+    Top = 352
+    Width = 76
+    Height = 13
+    Caption = 'Scan Jari Ke 0 x'
+  end
+  object Edit1: TEdit
+    Left = 254
+    Top = 104
+    Width = 293
+    Height = 31
+    Cursor = crAppStart
+    Ctl3D = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 254
+    Top = 142
+    Width = 421
+    Height = 31
+    Cursor = crAppStart
+    Ctl3D = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 254
+    Top = 219
+    Width = 245
+    Height = 31
+    Cursor = crAppStart
+    Ctl3D = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 517
+    Top = 218
+    Width = 115
+    Height = 31
+    Caption = 'Browse...'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object ComboBox1: TComboBox
+    Left = 254
+    Top = 182
+    Width = 421
+    Height = 33
+    BevelKind = bkFlat
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object ComboBox2: TComboBox
+    Left = 253
+    Top = 255
+    Width = 421
+    Height = 33
+    BevelKind = bkFlat
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object ComboBox3: TComboBox
+    Left = 254
+    Top = 295
+    Width = 421
+    Height = 33
+    BevelKind = bkFlat
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button2: TButton
+    Left = 254
+    Top = 334
+    Width = 115
+    Height = 31
+    Caption = 'Daftar'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 378
+    Top = 334
+    Width = 115
+    Height = 31
+    Caption = 'Bersihkan'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+    OnClick = Button3Click
+  end
+  object DBGrid1: TDBGrid
+    Left = 24
+    Top = 384
+    Width = 810
+    Height = 321
+    DataSource = DataSource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+    ReadOnly = True
+    TabOrder = 9
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'Nip'
+        Width = 200
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Nama'
+        Width = 350
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Unit_kerja'
+        Width = 200
+        Visible = True
+      end>
+  end
+  object ZqLookup: TZQuery
+    Connection = ZConnection1
+    Params = <>
+    Left = 656
+    Top = 8
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    FilterIndex = 0
+    Left = 560
+    Top = 8
+  end
+  object FPReg: TFinFPReg
+    AutoConnect = False
+    ConnectKind = ckRunningOrNew
+    OnFPRegistrationStatus = FPRegFPRegistrationStatus
+    OnFPRegistrationTemplate = FPRegFPRegistrationTemplate
+    OnFPSamplesNeeded = FPRegFPSamplesNeeded
+    OnFPRegistrationImage = FPRegFPRegistrationImage
+    Left = 96
+    Top = 16
+  end
+  object ZQExec: TZQuery
+    Connection = ZConnection1
+    Params = <>
+    Left = 699
+    Top = 16
+  end
+  object ZQList: TZQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'select nip,nama,nama_unit as unit_kerja from pegawai a'
+      'left join m_unit b on a.unit_kerja = b.id'
+      'group by nip ')
+    Params = <>
+    Left = 738
+    Top = 24
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQList
+    Left = 672
+    Top = 72
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF16
+    Catalog = ''
+    HostName = 'localhost'
+    Port = 0
+    Database = 'fingerprint'
+    User = 'root'
+    Password = ''
+    Protocol = 'mysql-5'
+    LibraryLocation = 'libmysql.dll'
+    Left = 216
+    Top = 104
+  end
+end
